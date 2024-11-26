@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: rgb(119, 18, 213);
+}
+
+.head{
+    color: #FF0061;
+    text-align: center;
+}
+.show-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bbtnParent{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btnn{
+    border: none;
+    background-color: #FF0061;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+}

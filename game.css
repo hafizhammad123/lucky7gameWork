@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0;
+}
+
+.parentGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100Vh;
+}
+
+.result {
+    text-align: center;
+}
+
+body {
+    background-image: url("./200w.gif");
+}
+
+.module-border-wrap {
+
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
+
+
+}
+
+.module {
+    background: black;
+    color: white;
+    padding: 2rem;
+}
+
+.btnn {
+    border: none;
+    border-radius: 50px;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btnn:hover{
+    color: black;
+}
+
+.result{
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(204, 50, 81),darkblue, darkorchid,rgb(204, 50, 81)) 1;
+    padding: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.round{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Win-lose{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resultParent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btnparent{
+    display: flex;
+    justify-content: center;
+}
+
+.hello{
+    display: none;
+}
+.roundCount{
+    text-align: center;
+}
+
+.check{
+    background-image: url("https://i.pinimg.com/originals/07/03/48/0703483f8e3100d87497817030fb903f.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loseWork{
+    text-align: center;
+}
+
+.startBtnParent{
+    display: flex;
+    justify-content: center;
+    
+}

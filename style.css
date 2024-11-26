@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+@media(max-width: 390px) {
+    .hh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100Vh;
+    }
+
+    body {
+        background-image: url("./game.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+@media(min-width: 390px) and (max-width:576px) {
+    .hh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100Vh;
+    }
+
+    body {
+        background-image: url("./game.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 768px) {
+    .hh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100Vh;
+    }
+
+    body {
+        background-image: url("./game.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 992px ) {
+    .hh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100Vh;
+    }
+
+    body {
+        background-image: url("./game.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media(min-width: 992px) and (max-width:  1200px) {
+    .hh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100Vh;
+    }
+
+    body {
+        background-image: url("./game.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
